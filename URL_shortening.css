@@ -31,8 +31,6 @@
    width: 100%;
    margin-right: 10%;
 
-      
-
     button {
         border: 0;
         border-radius: 30px;
@@ -40,8 +38,6 @@
         width: 100px;
         height: 35px; 
        
-        
-
         a { display: flex;
             text-decoration: none;
             color: white
@@ -56,27 +52,37 @@
   
     }
 }
-
-
 .title {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
     margin-top: 100px;
     margin-left: 10%;
 }
 
-.picturetitle img {
-    display: flex;
-    flex-direction: column;
-  
-    width: 35%; /* Ajuster la largeur de l'image */
-    margin-left: 60%; /* Aligner l'image à droite */
+.text {
+    flex: 1; 
+      button{
+        border-radius: 10px;
+        
+        background-color: #2bd0d0;
+    }
+    a{
+    color: white;
+    text-decoration: none;
+    }
 }
+
+.button {
+    border: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;}
+
+
+
+ 
+
 
    
     
 
-button{
-    width: 100px;
-}
- 
